@@ -1,11 +1,16 @@
 import re
-pattern='[a-z A-Z 0-9 !@#$%&]'
 while True:
- user_password=input('password: ')
- if len(user_password)<15:
-     print("invalid user password")
- elif(re.search(pattern, user_password)): 
-  print("valid password")
-  break 
+ user_password=input("Please input you new password: ")
+ if (re.search(r"[a-z]",user_password)) is None:
+   print("Invalid password, your password should contain atleast 1 alphabetic character in lowercase.")
+ elif (re.search(r"[A-Z]",user_password)) is None:
+   print("Invalid password, your password should contain atleast 1 alphabetic character in uppercase.")
+ elif (re.search(r"[\d]",user_password)) is None:
+   print("Invalid password, your password should contain atleast 1 number.")
+ elif (re.search(r"[!@#$%^&*()_+]",user_password)) is None:
+   print("Invalid password, your password should contain atleast 1 special character.")
+ elif (len(user_password) < 15):
+   print("Invalid password, your password should atleast be 15 chracters in length.")
  else:
-  print("invalid")  
+   print("Valid password, you successfully created your password.")
+   break
