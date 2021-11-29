@@ -9,8 +9,8 @@ while True:
    print("Invalid password, your password should contain atleast 1 number.")
  elif (re.search(r"[!@#$%^&*()_+]",user_password)) is None:
    print("Invalid password, your password should contain atleast 1 special character.")
- elif (len(user_password) < 15):
-   print("Invalid password, your password should atleast be 15 chracters in length.")
+ elif (len(user_password) < 16 ):
+   print("Invalid password, your password should be greater than 15 chracters in length.")
  else:
    print("Valid password, you successfully created your password.")
    break
