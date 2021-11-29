@@ -60,7 +60,6 @@ for charac in processed_sentence:
     if charac == 'z':
         consonant_count = consonant_count + 1
     
-word_count = vowel_count + consonant_count
-print(f"Word count: {word_count}")
+print(f"Word count: {len(processed_sentence)}")
 print(f"Vowel count: {vowel_count}")
 print(f"Consonant count: {consonant_count}")
