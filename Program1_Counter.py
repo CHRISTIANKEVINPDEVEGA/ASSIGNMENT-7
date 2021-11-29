@@ -6,58 +6,58 @@ consonant_count= 0
 for charac in processed_sentence:
     if charac =='a':
         vowel_count = vowel_count + 1
-    if charac =='e':
+    elif charac =='e':
         vowel_count = vowel_count + 1
-    if charac =='i':
+    elif charac =='i':
         vowel_count = vowel_count + 1
-    if charac =='o':
+    elif charac =='o':
         vowel_count = vowel_count + 1
-    if charac =='u':
+    elif charac =='u':
         vowel_count = vowel_count + 1
     
 
 for charac in processed_sentence:
     if charac == 'b':
         consonant_count = consonant_count + 1
-    if charac == 'c':
+    elif charac == 'c':
         consonant_count = consonant_count + 1        
-    if charac == 'd':
+    elif charac == 'd':
         consonant_count = consonant_count + 1
-    if charac == 'f':
+    elif charac == 'f':
         consonant_count = consonant_count + 1
-    if charac == 'g':
+    elif charac == 'g':
         consonant_count = consonant_count + 1
-    if charac == 'h':
+    elif charac == 'h':
         consonant_count = consonant_count + 1
-    if charac == 'j':
+    elif charac == 'j':
         consonant_count = consonant_count + 1
-    if charac == 'k':
+    elif charac == 'k':
         consonant_count = consonant_count + 1
-    if charac == 'l':
+    elif charac == 'l':
         consonant_count = consonant_count + 1
-    if charac == 'm':
+    elif charac == 'm':
         consonant_count = consonant_count + 1
-    if charac == 'n':
+    elif charac == 'n':
         consonant_count = consonant_count + 1
-    if charac == 'p':
+    elif charac == 'p':
         consonant_count = consonant_count + 1
-    if charac == 'q':
+    elif charac == 'q':
         consonant_count = consonant_count + 1
-    if charac == 'r':
+    elif charac == 'r':
         consonant_count = consonant_count + 1
-    if charac == 's':
+    elif charac == 's':
         consonant_count = consonant_count + 1
-    if charac == 't':
+    elif charac == 't':
         consonant_count = consonant_count + 1
-    if charac == 'v':
+    elif charac == 'v':
         consonant_count = consonant_count + 1
-    if charac == 'w':
+    elif charac == 'w':
         consonant_count = consonant_count + 1
-    if charac == 'x':
+    elif charac == 'x':
         consonant_count = consonant_count + 1
-    if charac == 'y':
+    elif charac == 'y':
         consonant_count = consonant_count + 1
-    if charac == 'z':
+    elif charac == 'z':
         consonant_count = consonant_count + 1
     
 print(f"Word count: {len(processed_sentence)}")
