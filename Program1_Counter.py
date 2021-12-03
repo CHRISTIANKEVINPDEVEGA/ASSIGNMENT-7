@@ -1,6 +1,3 @@
-from test3 import vowel_counter
-
-
 def Input():
    Raw_Sentence=input("Input a number of words, sentence, or phrase, and the program will count its elements:\n ")
    processed_sentence = Raw_Sentence.lower() 
