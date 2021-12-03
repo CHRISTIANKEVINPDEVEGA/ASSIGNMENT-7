@@ -1,9 +1,12 @@
+from test3 import vowel_counter
+
+
 def Input():
    Raw_Sentence=input("Input a number of words, sentence, or phrase, and the program will count its elements:\n ")
    processed_sentence = Raw_Sentence.lower() 
    return processed_sentence
 
-def vowel_count(sentence):
+def vowel_counter(sentence):
    vowel_count = 0
    for charac in sentence:
     if charac in 'aeiou':
@@ -23,5 +26,5 @@ def word_counter(sentence):
 
 sentence = Input()
 word_counter(sentence)
-vowel_count(sentence) 
+vowel_counter(sentence) 
 consonant_counter(sentence)
